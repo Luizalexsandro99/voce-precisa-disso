@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap'); /* font-family: 'Italianno', cursive; */
+
+body{
+    background-image: linear-gradient(to right, rgba(77, 77, 228, 0.836), rgba(87, 87, 179, 0.863));
+}
+
+header h1 {
+    font-family: 'Italianno';
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-size: 3rem;
+    text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.596);
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
+
+#fraseQualquer{
+    align-self: center;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.butao{
+    align-self: center;
+}
+
+.cont2{
+    display: flex;
+    justify-content: center;
+}
+
+.butao2{
+    align-self: flex-start;
+     display: none;
+}
